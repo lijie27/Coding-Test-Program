@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="icon" href="data:,">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing Card Distribution</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Playing Card Distribution</h1>
+        <div class="input-group">
+            <label for="numPeople">Number of people:</label>
+            <input type="number" id="numPeople" min="1" value="4">
+            <button id="distributeBtn">Distribute Cards</button>
+        </div>
+        <div id="resultContainer">
+            <h2>Distribution Result:</h2>
+            <div id="distributionResult"></div>
+        </div>
+        <div id="errorContainer" class="error"></div>
+    </div>
+    <script src="cardApp.js"></script>
+</body>
+</html>

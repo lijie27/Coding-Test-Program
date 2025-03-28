@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.5;
+}
+
+#numPeople {
+    padding: 5px;
+    width: 50px;
+}
+
+#distributeBtn {
+    padding: 5px 10px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#distributeBtn:hover {
+    background: #0055aa;
+}
+
+#distributionResult {
+    margin-top: 20px;
+}
+
+.person-cards {
+    margin: 5px 0;
+    padding: 5px;
+    background: #f0f0f0;
+}
+
+.error {
+    color: red;
+    margin-top: 10px;
+    font-weight: bold;
+}
